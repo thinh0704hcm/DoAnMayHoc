@@ -25,6 +25,9 @@
 # RAW
 *.raw
 
+#HEIC
+*.HEIC
+
 # Web P
 *.webp
 
@@ -62,6 +65,6 @@
 *.3dm
 *.max
 
-.pth
+*.pth
 
-.pt
+*.pt
