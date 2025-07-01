@@ -72,3 +72,5 @@
 __pycache__/
 
 *.pkl
+
+github_cloned/
