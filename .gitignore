@@ -70,3 +70,5 @@
 *.pt
 
 __pycache__/
+
+*.pkl
