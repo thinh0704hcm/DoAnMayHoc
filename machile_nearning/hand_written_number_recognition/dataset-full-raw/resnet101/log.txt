@@ -1,0 +1,65 @@
+PS D:\machile_nearning\hand_written_number_recognition\dataset-full-raw\resnet101> python -m modal run --detach .\train.py
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at https://modal.com/apps/thinh0704hcm/main/ap-KeLQD8BRs39iU38QoPSlGC
+✓ Created objects.                                                                                                                                                          
+├── 🔨 Created mount D:\machile_nearning\hand_written_number_recognition\dataset-full-raw\resnet101\train.py                                                                
+├── 🔨 Created function train.                                                                                                                                              
+└── 🔨 Created web function tensorboard_app => https://thinh0704hcm--pytorch-digit-training-tensorboard-app-dev.modal.run                                                   
+Downloading: "https://download.pytorch.org/models/resnet101-cd907fc2.pth" to /root/.cache/torch/hub/checkpoints/resnet101-cd907fc2.pth
+99.9%100.0%100.0%.7%99.8%99.8%68.2%
+Resuming from checkpoint at epoch 2
+Epoch [3/12] finished. Average Loss: 0.3288
+Epoch [4/12] finished. Average Loss: 0.2136
+Epoch [5/12] finished. Average Loss: 0.1898
+Epoch [6/12] finished. Average Loss: 0.1640
+Epoch [7/12] finished. Average Loss: 0.1203
+Epoch [8/12] finished. Average Loss: 0.1374
+Epoch [9/12] finished. Average Loss: 0.1242
+Epoch [10/12] finished. Average Loss: 0.0795
+Epoch [11/12] finished. Average Loss: 0.0873
+Epoch [12/12] finished. Average Loss: 0.1067
+Training finished.
+
+Note that running a local entrypoint in detached mode only keeps the last triggered Modal function alive after the parent process has been killed or disconnected.
+✓ Initialized. View run at https://modal.com/apps/thinh0704hcm/main/ap-34slbFykqoCKVKFVqSV9yg
+✓ Created objects.                                                                                                           
+├── 🔨 Created mount D:\machile_nearning\hand_written_number_recognition\dataset-full-raw\resnet101\evaluate.py
+└── 🔨 Created function evaluate.
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+├── 🔨 Created mount D:\machile_nearning\hand_written_number_recognition\dataset-full-raw\resnet101\evaluate.py
+└── 🔨 Created function evaluate.
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+└── 🔨 Created function evaluate.
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+ please use 'weights' instead.
+  warnings.warn(
+  warnings.warn(
+/usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 /usr/local/lib/python3.13/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+
+==================================================
+Final Test Loss: 0.1112
+Final Test Accuracy: 0.9661
+==================================================
+
+✓ App completed. View run at https://modal.com/apps/thinh0704hcm/main/ap-34slbFykqoCKVKFVqSV9yg
+Error processing 21151445fd63ff79440449974f17109d.jpg: cannot identify image file '/vol/evaluation_data/21151445fd63ff79440449974f17109d.jpg'
+Error processing 2c18ee0e7cea8354149df435532d74ae.jpeg: cannot identify image file '/vol/evaluation_data/2c18ee0e7cea8354149df435532d74ae.jpeg'
+Error processing 3a816aa78f56749a0822d700ff560924.jpeg: cannot identify image file '/vol/evaluation_data/3a816aa78f56749a0822d700ff560924.jpeg'
+Error processing 4abc1b5dcf1be1de6503dc072e132fa0.jpeg: cannot identify image file '/vol/evaluation_data/4abc1b5dcf1be1de6503dc072e132fa0.jpeg'
+Error processing 70ebf0bec317006017a54d6c9172af45.jpeg: cannot identify image file '/vol/evaluation_data/70ebf0bec317006017a54d6c9172af45.jpeg'
+Error processing 8eeee227b3f244e980b747387bc79bf2.jpeg: cannot identify image file '/vol/evaluation_data/8eeee227b3f244e980b747387bc79bf2.jpeg'
+Error processing 9e748b9617e26b90011f8d7c3f8a7eee.jpeg: cannot identify image file '/vol/evaluation_data/9e748b9617e26b90011f8d7c3f8a7eee.jpeg'
+Error processing a008f795ae8498751f2e5feeb0b73387.jpeg: cannot identify image file '/vol/evaluation_data/a008f795ae8498751f2e5feeb0b73387.jpeg'
+Error processing ce2388179ec73203a60d8efedd04e0f1.jpeg: cannot identify image file '/vol/evaluation_data/ce2388179ec73203a60d8efedd04e0f1.jpeg'
+Error processing d4b080c6ce4933f1199fad7f75e7d112.jpeg: cannot identify image file '/vol/evaluation_data/d4b080c6ce4933f1199fad7f75e7d112.jpeg'
+Error processing e21dcb1cb0571a21a013b4232d1b6a13.jpeg: cannot identify image file '/vol/evaluation_data/e21dcb1cb0571a21a013b4232d1b6a13.jpeg'
+Error processing f7679411e290bfd8dc90b3eadb57460a.jpeg: cannot identify image file '/vol/evaluation_data/f7679411e290bfd8dc90b3eadb57460a.jpeg'
+Error processing ffd4f9df7163f55474a0182265c8d810.jpeg: cannot identify image file '/vol/evaluation_data/ffd4f9df7163f55474a0182265c8d810.jpeg'
+Predictions saved to /vol/predictions.csv
+✓ App completed. View run at https://modal.com/apps/thinh0704hcm/main/ap-TZhTkX3Ntl0seShwCJkQAX

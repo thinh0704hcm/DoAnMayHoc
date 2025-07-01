@@ -1,0 +1,20 @@
+PS D:\machile_nearning\wecode_score_prediction\dataset-full-raw\linear_regression_basic> python .\train.py
+Sử dụng thiết bị: cuda
+Số lượng NaN trong avg_score_scaled: 0
+NaN trong y_val: 0
+Dừng sớm do hiệu suất không cải thiện
+Số lượng NaN trong avg_score_scaled: 0
+NaN trong y_val: 0
+Dừng sớm do hiệu suất không cải thiện
+Dừng sớm do hiệu suất không cải thiện
+Huấn luyện hoàn tất!
+
+Đã dự đoán điểm TH cho 735 sinh viên
+
+Đánh giá mô hình cuối cùng:
+[Huấn luyện] MSE: 4.4883, RMSE: 2.1186, R²: 0.0374
+[Validation] MSE: 4.9688, RMSE: 2.2291, R²: 0.0211
+
+Tham số mô hình tốt nhất:
+linear.weight: [3.3572493]
+linear.bias: [4.2160597]

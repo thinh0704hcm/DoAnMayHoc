@@ -1,0 +1,38 @@
+Downloading: "https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b7-dcc49843.pth" to /root/.cache/torch/hub/checkpoints/efficientnet-b7-dcc49843.pth
+38.4%
+82.5%
+100.0%
+Loaded pretrained weights for efficientnet-b7
+Epoch 1/15: Train Loss: 0.5365, Val Loss: 0.1527, Val Acc: 0.9530
+Epoch 2/15: Train Loss: 0.1493, Val Loss: 0.1196, Val Acc: 0.9591
+Epoch 3/15: Train Loss: 0.1006, Val Loss: 0.1038, Val Acc: 0.9642
+Epoch 4/15: Train Loss: 0.0892, Val Loss: 0.1096, Val Acc: 0.9637
+Epoch 5/15: Train Loss: 0.0741, Val Loss: 0.1174, Val Acc: 0.9639
+Epoch 6/15: Train Loss: 0.0643, Val Loss: 0.1021, Val Acc: 0.9685
+Epoch 7/15: Train Loss: 0.0612, Val Loss: 0.0981, Val Acc: 0.9694
+Epoch 8/15: Train Loss: 0.0525, Val Loss: 0.1071, Val Acc: 0.9700
+Epoch 9/15: Train Loss: 0.0508, Val Loss: 0.0898, Val Acc: 0.9697
+Epoch 10/15: Train Loss: 0.0485, Val Loss: 0.1251, Val Acc: 0.9688
+Epoch 11/15: Train Loss: 0.0471, Val Loss: 0.0983, Val Acc: 0.9672
+Epoch 12/15: Train Loss: 0.0345, Val Loss: 0.0846, Val Acc: 0.9735
+Epoch 13/15: Train Loss: 0.0291, Val Loss: 0.0836, Val Acc: 0.9735
+Epoch 14/15: Train Loss: 0.0294, Val Loss: 0.1008, Val Acc: 0.9715
+Epoch 15/15: Train Loss: 0.0310, Val Loss: 0.0906, Val Acc: 0.9730
+Training complete. Best accuracy: 0.9735
+Downloading: "https://github.com/lukemelas/EfficientNet-PyTorch/releases/download/1.0/efficientnet-b7-dcc49843.pth" to /root/.cache/torch/hub/checkpoints/efficientnet-b7-dcc49843.pth
+99.8%99.9%99.9%100.0%100.0%.6%99.6%99.7%99.7%99.8%71.4%
+Loaded pretrained weights for efficientnet-b7
+Error processing 21151445fd63ff79440449974f17109d.jpg: cannot identify image file '/vol/evaluation_data/21151445fd63ff79440449974f17109d.jpg'
+Error processing 2c18ee0e7cea8354149df435532d74ae.jpeg: cannot identify image file '/vol/evaluation_data/2c18ee0e7cea8354149df435532d74ae.jpeg'
+Error processing 3a816aa78f56749a0822d700ff560924.jpeg: cannot identify image file '/vol/evaluation_data/3a816aa78f56749a0822d700ff560924.jpeg'
+Error processing 4abc1b5dcf1be1de6503dc072e132fa0.jpeg: cannot identify image file '/vol/evaluation_data/4abc1b5dcf1be1de6503dc072e132fa0.jpeg'
+Error processing 70ebf0bec317006017a54d6c9172af45.jpeg: cannot identify image file '/vol/evaluation_data/70ebf0bec317006017a54d6c9172af45.jpeg'
+Error processing 8eeee227b3f244e980b747387bc79bf2.jpeg: cannot identify image file '/vol/evaluation_data/8eeee227b3f244e980b747387bc79bf2.jpeg'
+Error processing 9e748b9617e26b90011f8d7c3f8a7eee.jpeg: cannot identify image file '/vol/evaluation_data/9e748b9617e26b90011f8d7c3f8a7eee.jpeg'
+Error processing a008f795ae8498751f2e5feeb0b73387.jpeg: cannot identify image file '/vol/evaluation_data/a008f795ae8498751f2e5feeb0b73387.jpeg'
+Error processing ce2388179ec73203a60d8efedd04e0f1.jpeg: cannot identify image file '/vol/evaluation_data/ce2388179ec73203a60d8efedd04e0f1.jpeg'
+Error processing d4b080c6ce4933f1199fad7f75e7d112.jpeg: cannot identify image file '/vol/evaluation_data/d4b080c6ce4933f1199fad7f75e7d112.jpeg'
+Error processing e21dcb1cb0571a21a013b4232d1b6a13.jpeg: cannot identify image file '/vol/evaluation_data/e21dcb1cb0571a21a013b4232d1b6a13.jpeg'
+Error processing f7679411e290bfd8dc90b3eadb57460a.jpeg: cannot identify image file '/vol/evaluation_data/f7679411e290bfd8dc90b3eadb57460a.jpeg'
+Error processing ffd4f9df7163f55474a0182265c8d810.jpeg: cannot identify image file '/vol/evaluation_data/ffd4f9df7163f55474a0182265c8d810.jpeg'
+Predictions saved to /vol/efficientnet_b7_predictions.csv
